@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.nav-part2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 700px;
+}
+.logo{
+    height: 80px;
+    width: 180px;
+    background-image: url("img/logo.png");
+    background-size: cover;
+}
+.nav i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+a i{
+    text-decoration:none;
+}
+button a{
+    text-decoration: none;
+}
+.nav h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(107, 4, 107);
+}
+.nav .nav-part2 h3:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+#cart{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 20px;
+}
+h3 a{
+    text-decoration: none;
+    color: rgb(107, 4, 107);
+}
+.sign{
+    background-color:rgb(232, 164, 232);
+    color: white;
+    border: none;
+}
+pre{
+    height: 10%;
+    font-size: 25px;
+    margin-left: 130px;
+    padding-top: 20px;
+}
+button{
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.more .food10 a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 390px;
+    left: 148px;
+    color: white;
+    font-size: 19px;
+}
+.more{
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background:linear-gradient(white,rgb(255, 1, 1));
+    border: 2px;
+}
+.food10{
+    height: 100%;
+    border-radius: 15px;
+}
+.food1{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p1.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food22{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p2.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food3{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p3.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.more1 .food10 a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 390px;
+    left: 148px;
+    color: white;
+    font-size: 19px;
+}
+.more1{
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background:linear-gradient(white,rgb(230, 255, 1));
+    border: 2px;
+}
+.food10{
+    height: 100%;
+    border-radius: 15px;
+}
+.food4{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p4.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food5{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p5.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food6{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p6.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.more2 .food10 a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 390px;
+    left: 148px;
+    color: white;
+    font-size: 19px;
+}
+.more2{
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background:linear-gradient(white,rgb(1, 230, 255));
+    border: 2px;
+}
+.food10{
+    height: 100%;
+    border-radius: 15px;
+}
+.food7{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p7.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food8{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p8.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food9{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p9.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.more3 .food10 a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 390px;
+    left: 148px;
+    color: white;
+    font-size: 19px;
+}
+.more3{
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background:linear-gradient(white,rgb(251, 1, 255));
+    border: 2px;
+}
+.food10{
+    height: 100%;
+    border-radius: 15px;
+}
+.food01{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p10.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food11{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p11.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food12{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/p122.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+p{
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-size:x-large;
+}
+footer {
+    background:linear-gradient(rgb(0, 0, 0),  #000000);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-info, .social-links, .site-links {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-info h3, .social-links h3, .site-links h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contact-info p, .social-links ul, .site-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.social-links ul li, .site-links ul li {
+    margin-bottom: 5px;
+}
+
+.social-links a, .site-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social-links a:hover, .site-links a:hover {
+    color: #ff0000; /* Change color on hover */
+}

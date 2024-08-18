@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.nav-part2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 700px;
+}
+.logo{
+    height: 80px;
+    width: 180px;
+    background-image: url("img/logo.png");
+    background-size: cover;
+}
+.nav i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+a i{
+    text-decoration:none;
+}
+button a{
+    text-decoration: none;
+}
+.nav h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(107, 4, 107);
+}
+.nav .nav-part2 h3:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+#cart{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 20px;
+}
+h3 a{
+    text-decoration: none;
+}
+.sign{
+    background-color:rgb(232, 164, 232);
+    color: white;
+    border: none;
+}
+.heros{
+    height: 39%;
+    background-image: url("img/hero.png");
+    background-size: cover;
+}
+.search1{
+    height: 70%;
+}
+.hero{
+    height:51%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    background:linear-gradient(white,yellow);
+}
+.hero1{
+    height: 100%;
+    width: 40%;
+    background-image: url("img/food_background_images-removebg-preview.png");
+    background-size: cover;
+}
+h1{
+    letter-spacing: 0.60px;
+    padding-bottom: 10px;
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+}
+.first{
+    height: 80%;
+    width: 45%;
+    padding-top: 30px;
+}
+#search{
+    height: 50px;
+    width: 450px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size:large;
+}
+.first i{
+    font-size: 25px;
+    position: relative;
+    right: 40px;
+}
+button{
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.first button a{
+    color: rgb(107, 4, 107);
+}
+pre{
+    height: 10%;
+    font-size: 25px;
+    margin-left: 130px;
+    padding-top: 20px;
+}
+.order{
+    height: 38%;
+    background:linear-gradient(white,red);
+    display: flex;
+    justify-content:space-evenly;
+}
+.card{
+    height: 100%;
+}
+.card p a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+#col{
+    color: black;
+}
+#colo{
+    color: rgb(255, 255, 255);
+}
+.card p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 8px;
+}
+.card p a{
+    color: rgb(255, 255, 255);
+}
+.item{
+    height: 71%;
+    width: 200px;
+    background-image: url("img/Screenshot\ 2024-04-23\ 180659.png");
+    background-size: cover;
+}
+.item1{
+    height: 71%;
+    width: 200px;
+    background-image: url("img/bueger1.avif");
+    background-size: cover;
+}
+.item2{
+    height: 71%;
+    width: 200px;
+    background-image: url("img/biryani.avif");
+    background-size: cover;
+}
+.item3{
+    height: 71%;
+    width: 200px;
+    background-image: url("img/cake.avif");
+    background-size: cover;
+}
+.item4{
+    height: 71%;
+    width: 200px;
+    background-image: url("img/role.avif");
+    background-size: cover;
+}
+.order1{
+    height: 38%;
+    background:linear-gradient(white,rgb(170, 18, 246));
+    display: flex;
+    justify-content:space-evenly;
+}
+.item5{
+    height: 71%;
+    width: 200px;
+    background-image: url("img/chicken.avif");
+    background-size: cover;
+}
+.item6{
+    height: 71%;
+    width: 200px;
+    background-image: url("img/thali1.png");
+    background-size: cover;
+}
+.item7{
+    height: 73%;
+    width: 220px;
+    background-image: url("img/north.png");
+    background-size: cover;
+}
+.item8{
+    height: 73%;
+    width: 220px;
+    background-image: url("img/momo.png");
+    background-size: cover;
+}
+.item9{
+    height: 73%;
+    width: 200px;
+    background-image: url("img/panner.avif");
+    background-size: cover;
+}
+.order3{
+    height: 38%;
+    display: flex;
+    justify-content:space-evenly;
+    background:linear-gradient(white,rgb(246, 181, 18));
+}
+.order3 p{
+    color: rgb(0, 0, 0);
+}
+.item10{
+    height: 65%;
+    width: 170px;
+    background-image: url("img/domino.avif");
+    background-size: cover;
+}
+.item11{
+    height: 65%;
+    width: 170px;
+    background-image: url("img/haldiram.avif");
+    background-size: cover;
+}
+.item12{
+    height: 65%;
+    width: 170px;
+    background-image: url("img/kfc.avif");
+    background-size: cover;
+}
+.item13{
+    height: 65%;
+    width: 170px;
+    background-image: url("img/bika.avif");
+    background-size: cover;
+}
+.item14{
+    height: 65%;
+    width: 170px;
+    background-image: url("img/box.avif");
+    background-size: cover;
+}
+.more{
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background:linear-gradient(white,rgb(1, 196, 255));
+    border: 2px;
+}
+.food10{
+    height: 100%;
+    border-radius: 15px;
+}
+.food1{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/wendy barger.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food22{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/bb.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food3{
+    height: 89%;
+    width: 340px;
+    background-image: url("img/haldiram1.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food4{
+    height: 90%;
+    width: 340px;
+    background-image: url("img/love.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.more1{
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background:linear-gradient(white,rgb(20, 247, 43));
+    border: 2px;
+}
+.food5{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/1.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food6{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/2.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food7{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/3.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food8{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/4.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.more2{
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background:linear-gradient(white,rgb(225, 4, 118));
+    border: 2px;
+}
+.food9{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/5.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food10{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/6.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food11{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/7.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.food12{
+    height: 95%;
+    width: 340px;
+    background-image: url("img/88.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+.see{
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+    background:linear-gradient(white,rgb(4, 225, 225));
+    height: 60px;
+    padding-top: 10px;
+}
+footer {
+    background:linear-gradient(rgb(0, 0, 0),  #000000);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-info, .social-links, .site-links {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-info h3, .social-links h3, .site-links h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contact-info p, .social-links ul, .site-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.social-links ul li, .site-links ul li {
+    margin-bottom: 5px;
+}
+
+.social-links a, .site-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social-links a:hover, .site-links a:hover {
+    color: #ff0000; /* Change color on hover */
+}
